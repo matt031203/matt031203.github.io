@@ -5,22 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me page</title>
 </head>
+<style>
+    body {
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+    .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+#banner{
+    display: block;
+    margin: 0 auto;
+}
+body{
+    color:antiquewhite;
+}
+#surfing {
+    float: left;
+    padding-right: 40px;
+}
+#aurora {
+    float: right;
+    padding-left: 40px;
+
+}
+    </style>
 <body>
-    <center><img src="banner.jpg"></center>
-    <table>
-        <thead>
-            <tr>
-            <th><a href="http://127.0.0.1:3000/index.html"><img src="Home.png" width="200"></a></th>
-            <th><a href="http://127.0.0.1:3000/Javascripts.html"><img src="Javascripts.png" width="200"></a></th>
-            <th><a href="http://127.0.0.1:3000/aboutme.html"><img src="Aboutme.png" width="200"></a></th>
-            </tr>
-        </thead>
+    <img id="banner" class="center" src="mybanner.png" width="1200">
+    <table class="center">
+    <tr>
+        <td><a href="http://127.0.0.1:3000/index.html"><img src="Home.png" width="200"></a></td>
+        <td><a href="http://127.0.0.1:3000/Javascripts.html"><img src="Javascripts.png" width="200"></a></td>
+        <td><a href="http://127.0.0.1:3000/aboutme.html"><img src="about.png" width="200"></a></td>
+    </tr>
     </table>
-    <h1>About Me,</h1>
-    <h2>Matts Hobbies are:</h2>
-    <em><li>Surfing</li>
-    <li>Skiing</li>
-    <li>Hiking</li></em>
+    <img id="surfing" src="surfing.jpg" width="350">
+    <img id="aurora" src="aurora.jpg" width="300">
+   <center><h1>About me...</h1>
+<p>My name is Matt McCune, I am on the BS in computer science track and am currently a sophomore. When Im not doing coursework, im surfing, skiing, and hiking.<br>
+    I also like to travel in my freetime, on my list of places to visit next is Portugal, Chile, Spain, and Sweeden. Some of my non-sport hobbies include photography,
+    learning languages, and exploration. 
+</p></center>
 </body>
 </html>
 <hi!></hi>

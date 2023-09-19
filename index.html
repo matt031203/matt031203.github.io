@@ -5,20 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matt's programing portfolio</title>
 </head>
+<style>
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p {
+    color: antiquewhite;
+}
+h1 {
+    color:antiquewhite;
+}
+a {
+    color:antiquewhite;
+}
+    .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+#banner{
+    display: block;
+    margin: 0 auto;
+}
+#overlook{
+    float:left;
+    padding: right 5px;
+    margin-left:15px;
+}
+</style>
 <body>
-    <center><img src="banner.jpg" width="800"></center>
-    <table margin-left="auto" margin-right="auto">
-        <thead>
-            <tr>
-           <div><th><a href="http://127.0.0.1:3000/index.html"><img src="Home.png" width="200"></a></th>
-            <th><a href="http://127.0.0.1:3000/Javascripts.html"><img src="Javascripts.png" width="200"></a></th>
-            <th><a href="http://127.0.0.1:3000/aboutme.html"><img src="Aboutme.png" width="200"></a></th></div>
-            </tr>
-        </thead>
+    <img id="banner" class="center" src="mybanner.png" width="1200">
+    <table class="center">
+    <tr>
+        <td><a href="http://127.0.0.1:3000/index.html"><img src="Home.png" width="200"></a></td>
+        <td><a href="http://127.0.0.1:3000/Javascripts.html"><img src="Javascripts.png" width="200"></a></td>
+        <td><a href="http://127.0.0.1:3000/aboutme.html"><img src="about.png" width="200"></a></td>
+    </tr>
     </table>
- <h1><center>Welcome to my programing portfolio</center></h1>
-    <center><p>My name is Matt, im on the Computer Science BS track and am currently a sophomore.<br> 
+    <img id="overlook" src="overlook.jpg" width="300">
+ <center><h1>Welcome to my programing portfolio</h1>
+   <p>My name is Matt, I'm on the Computer Science BS track and am currently a sophomore.<br> 
         I will be updating this website throughout this semester and will have more updates to come.</p>
-    <p>Thanks for visiting, to learn more about me,</p><a href="aboutme.html">clickhere</a></p>
-</center></body>
+    <p>Thanks for visiting, to learn more about me,</p><a href="aboutme.html">clickhere</a></p></center>
+</body>
 </html>
