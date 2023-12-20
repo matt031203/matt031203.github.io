@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroid Attack</title>
+    <style>
+        body 
+        {
+            background-image: url("background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .center 
+        {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #banner
+        {
+            display: block;
+            margin: 0 auto;
+        }
+        body
+        {
+            color: antiquewhite;
+        }
+        .centered-content {
+            text-align: center;
+            margin-top: 10px; 
+        }
+        #gameWindow {
+            display: inline-block;
+            margin: 0 auto;
+        }
+        #video {
+            float: left;
+            margin-right: 100px;
+        }
+        #howto {
+            float: right;
+            padding-right: 100px;
+            font-size: 220%;
+            color: antiquewhite;
+        }
+        #Instructions {
+            color: antiquewhite;
+            padding-top: 100px;
+            padding-right: 70px;
+            font-size: 115%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="banner" class="center" src="mybanner.png" width="1200">
+    <table class="center">
+        <tr>
+            <td><a href="index.html"><img src="home.png" width="200"></a></td>
+            <td><a href="javascripts.html"><img src="javascripts.png" width="200"></a></td>
+            <td><a href="aboutme.html"><img src="about.png" width="200"></a></td>
+            <td><a href="asteroidAttack.html"><img src="AsteroidAttack.png" width="200"></a></td>
+        </tr>
+    </table>
+    <div class="centered-content">
+        <h2><a id="gameWindow" href="https://www.khanacademy.org/computer-programming/asteroid-attack-v15/4700374135128064"></a></h2>
+        <script src="https://www.khanacademy.org/computer-programming/asteroid-attack-v15/4700374135128064/embed.js?editor=no&buttons=yes&author=no&embed=yes"></script>
+    </div>
+    <iframe id="video" src="https://drive.google.com/file/d/1-SWh9NAH70z_6a43LiHC7tg6CP8h_06V/preview" width="600" height="400" allow="autoplay"></iframe>
+    <div>
+        <h1 id="howto">How to Play Asteroid Attack</h1> 
+        <p id="Instructions">To play Asteroid Attack, use the mouse cursor to move the spaceship across the screen. Avoid hitting the asteroids because one collision will end the game. Collect gems along the way to score points; every 10 gems collected will increase the speed of the game. If you get a higher score than 50, then you get to write your name and your score down on the paper!</p>
+    </div>
+</body>
+</html>
